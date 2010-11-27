@@ -1,0 +1,185 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta24.1.dtd" >
+   <PATCH nodename="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\Korriander-VVVV-Tools\Arduino\BasicMata\vvvv\_root.v4p">
+   <BOUNDS height="11475" left="1215" top="0" type="Window" width="9240">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="20" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="510" top="3645" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="1920" left="510" top="3645" type="Box" width="1005">
+   </BOUNDS>
+   <BOUNDS height="160" left="23790" top="7125" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="6" visible="1" values="0,0,0,0,0,0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="6">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|PWM Input|">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="21" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1965" top="3540" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="1890" left="1965" top="3540" type="Box" width="930">
+   </BOUNDS>
+   <BOUNDS height="160" left="25020" top="6420" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="3" visible="1" values="0,0,0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Digital Input|">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="3" values="0,0,0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="78" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="615" top="7545" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="1875" left="615" top="7545" type="Box" width="960">
+   </BOUNDS>
+   <BOUNDS height="160" left="12525" top="8430" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Analog Input|">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="6">
+   </PIN>
+   <PIN pinname="X Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="79" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="2925" top="7380" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="1185" left="2925" top="7380" type="Box" width="855">
+   </BOUNDS>
+   <BOUNDS height="160" left="14835" top="8265" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Digital Input|">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="80" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1815" top="7530" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="240" left="1815" top="7530" type="Box" width="795">
+   </BOUNDS>
+   <BOUNDS height="160" left="13470" top="8250" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Queue Length|">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="84" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="3810" top="3885" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="480" left="3810" top="3885" type="Box" width="480">
+   </BOUNDS>
+   <BOUNDS height="160" left="15240" top="6525" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="einschaltem">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="102" nodename="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="3975" top="5490" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="240" left="3975" top="5490" type="Box" width="795">
+   </BOUNDS>
+   <BOUNDS height="160" left="9075" top="6525" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="103" nodename="20101125_vvvv2BasicMata.v4p" path="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\Korriander-VVVV-Tools\Arduino\BasicMata\vvvv\">
+   <BOUNDS height="100" left="1740" top="6795" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="PWM Output" visible="1">
+   </PIN>
+   <PIN pinname="Digital Output" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
+   <PIN pinname="ComPort" visible="1">
+   </PIN>
+   <PIN pinname="Analog Input" visible="1">
+   </PIN>
+   <PIN pinname="Queue Length" visible="1">
+   </PIN>
+   <PIN pinname="Digital Input" visible="1">
+   </PIN>
+   <BOUNDS height="21225" left="18030" top="240" type="Window" width="16545">
+   </BOUNDS>
+   </NODE>
+   <LINK dstnodeid="103" dstpinname="Enabled" srcnodeid="84" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="103" dstpinname="ComPort" srcnodeid="102" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="78" dstpinname="Y Input Value" srcnodeid="103" srcpinname="Analog Input">
+   </LINK>
+   <LINK dstnodeid="80" dstpinname="Y Input Value" srcnodeid="103" srcpinname="Queue Length">
+   </LINK>
+   <LINK dstnodeid="79" dstpinname="Y Input Value" srcnodeid="103" srcpinname="Digital Input">
+   </LINK>
+   <NODE componentmode="InABox" id="117" nodename="IOBox (String)">
+   <BOUNDS height="270" left="5025" top="5490" type="Node" width="495">
+   </BOUNDS>
+   <BOUNDS height="420" left="5025" top="5490" type="Box" width="2670">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|richtigen Comport einstellen|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="103" dstpinname="PWM Output">
+   </LINK>
+   <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="103" dstpinname="Digital Output">
+   </LINK>
+   </PATCH>
