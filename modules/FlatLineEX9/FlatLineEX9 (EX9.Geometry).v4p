@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta24.1.dtd" >
-   <PATCH nodename="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\Korriander-VVVV-Tools\modules\LinesMesh\LineEX9 (EX9.Geometry).v4p">
-   <BOUNDS height="11595" left="390" top="375" type="Window" width="7770">
+   <PATCH nodename="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\_LOCAL-GIT\modules\modules\FlatLineEX9\FlatLineEX9 (EX9.Geometry).v4p">
+   <BOUNDS height="11595" left="6105" top="3180" type="Window" width="7770">
    </BOUNDS>
    <NODE componentmode="InABox" id="5" nodename="IOBox (Value Advanced)">
    <BOUNDS height="100" left="10815" top="15720" type="Node" width="100">
@@ -755,9 +755,9 @@
    <LINK dstnodeid="92" dstpinname="Input" srcnodeid="104" srcpinname="X">
    </LINK>
    <NODE componentmode="InABox" id="132" nodename="IOBox (Value Advanced)">
-   <BOUNDS height="100" left="1380" top="630" type="Node" width="100">
+   <BOUNDS height="100" left="1395" top="1170" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS height="240" left="1380" top="630" type="Box" width="795">
+   <BOUNDS height="240" left="1395" top="1170" type="Box" width="795">
    </BOUNDS>
    <BOUNDS height="160" left="5760" top="2235" type="Window" width="215">
    </BOUNDS>
@@ -978,4 +978,16 @@
    </LINK>
    <INFO author="korriander" description="draw a dynamic mesch in shape of a flat line in xyz space" tags="mesch, draw, EX9">
    </INFO>
+   <NODE componentmode="InABox" id="153" nodename="IOBox (String)">
+   <BOUNDS height="270" left="75" top="120" type="Node" width="885">
+   </BOUNDS>
+   <BOUNDS height="1005" left="75" top="120" type="Box" width="3585">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|Generates a Flat Line &cr;&lf;width dynamic width.&cr;&lf;Korriander&cr;&lf;www.explorative-environments.net|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
    </PATCH>
